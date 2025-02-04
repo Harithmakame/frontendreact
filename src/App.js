@@ -20,7 +20,7 @@ import PatientListOnly from './Page/PatientListOnly';
 import DoctorListOnly from './Page/DoctorListOnly';
 import AppointmentOnly from './Page/AppointmentOnly';
 import ForDocAppointment from './Page/ForDocAppointment';
-import For_patient_app_update from './Page/For_patient_app_update';
+import ForPatientAppUpdate from './Page/ForPatientAppUpdate';
 
 function App() {
   return (
@@ -51,8 +51,8 @@ function App() {
         <Route path='Home2' element={<Home2/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
-        <Route path='appointmentUpdate' element={<For_patient_app_update />}/>
-        <Route path='appointmentUpdate/:id' element={<For_patient_app_update/>}/>
+        <Route path='appointmentUpdate' element={<ForPatientAppUpdate/>}/>
+        <Route path='appointmentUpdate/:id' element={<ForPatientAppUpdate/>}/>
         <Route path='appointment' element= {<Appointment/>}/>      
         <Route path='appointment_list' element={<AppointmentList/>}/> 
         <Route path='patient_list_only' element={<PatientListOnly/>}/> 
